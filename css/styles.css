@@ -809,6 +809,7 @@ margin-right: 30px;
 }
 
 .modal {
+    padding: 40px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -846,4 +847,11 @@ margin-right: 30px;
     color: var(--accent-color);
 }
 
-/* перегрузка на гит */
+.modal-tittle {
+    margin-bottom: 12px;
+}
+
+.modal-form {
+
+}
+
