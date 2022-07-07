@@ -350,6 +350,8 @@ border-bottom: 1px solid #ececec;
 
         outline: none;
         transition: border-color 250ms var(--transition-timing-function);
+
+        
 }
 
 .subscr-form-input:hover,
@@ -360,6 +362,23 @@ border-bottom: 1px solid #ececec;
 
 .subscr-form {
     display: flex;
+    position: relative;
+}
+
+.footer-placeholder {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+
+    font-size: 16px;
+    line-height: 1.25;
+    color: var(--font-color-second);
+}
+
+.subscr-form:focus .footer-placeholder,
+.subscr-form-input:not(:placeholder-shown)+.footer-placeholder {
+    opacity: 0;
 }
 
 .footer-button {
