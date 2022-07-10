@@ -645,7 +645,7 @@
                 type="text"
                 required
               />
-              <svg class="imput-img" width="18" height="18">
+              <svg class="imput-img" width="12" height="12">
                 <use href="./images/icons.svg#icon-modal-person"></use>
               </svg>
             </span>
@@ -655,7 +655,7 @@
             <span class="label-text">Телефон</span>
             <span class="label-thumb">
               <input class="imput-field" name="user-tel" type="tel" required />
-              <svg class="imput-img" width="18" height="18">
+              <svg class="imput-img" width="12" height="12">
                 <use href="./images/icons.svg#icon-modal-phone"></use>
               </svg>
             </span>
@@ -670,7 +670,7 @@
                 type="email"
                 required
               />
-              <svg class="imput-img" width="18" height="18">
+              <svg class="imput-img" width="12" height="12">
                 <use href="./images/icons.svg#icon-modal-mail"></use>
               </svg>
             </span>
@@ -682,30 +682,32 @@
               <textarea
                 class="imput-field textarea"
                 name="user-comment"
-                placeholder=" "
+                placeholder="Введите текст"
               ></textarea>
-              <span class="placeholder">Введите текст</span>
             </span>
           </label>
-
-          <label class="checkbox">
-            <input
-              class="checkbox-browser"
-              name="user-policy"
-              type="checkbox"
-              required
-            />
-            <span class="checkbox-castom"></span>
-            <span class="checkbox-text"
-              >Соглашаюсь с рассылкой и принимаю
-              <a class="policy-link link" href="" target="_blank"
-                >Условия договора</a
-              >
-            </span>
-          </label>
-          <button class="modal-btn-submit" type="submit">
-            <span>Отправить</span>
-          </button>
+          <div class="modal-btn-center">
+            <label class="checkbox">
+              <input
+                class="checkbox-browser"
+                name="user-policy"
+                type="checkbox"
+                required
+              />
+              <span class="checkbox-castom"> </span>
+              <span class="checkbox-text"
+                >Соглашаюсь с рассылкой и принимаю
+                <a class="policy-link link" href="" target="_blank"
+                  >Условия договора</a
+                >
+              </span>
+            </label>
+          </div>
+          <div class="modal-btn-center">
+            <button class="modal-btn-submit" type="submit">
+              <span>Отправить</span>
+            </button>
+          </div>
         </form>
       </div>
     </div>
